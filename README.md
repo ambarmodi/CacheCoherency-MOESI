@@ -36,15 +36,15 @@ End Probe Read
 Cache 0
 I -> E
 
-Deliverables:
+## Deliverables:
 1. makefile
 2. MOESI.java
 
-Instructions to execute:
+## Instructions to execute:
 1. make 						      (This will compile the program)
 2. make run							  (This will run the MOESI.class)
 3. make clean 						  (Optional : This will clean compiled .class files)
 
-Execution:
+### Execution:
 1. The program will ask user to input the command and print the cache status accordingly. 
 2. Press any alphabet to exit the program.
