@@ -1,11 +1,11 @@
 # Description:
 This project is the implementation the MOESI protocol between three caches.
 
-# Detailed Working:
+## Detailed Working:
 There are three caches numbered: 0,1,2
 Four lines with address 0,1,2,3
 
-# Input format
+### Input format
 The program will read input from stdin.  Each line of input will have the following three columns:
 Cache number (0, 1, 2)
 Command (r for read, w for write)
@@ -15,7 +15,7 @@ Example Command: 1r3
 
 This command tells cache 1 to read from line 3. Based on the availability of the line in the cache, more than one message might be sent from the requesting cache to other caches.
 
-# Output format
+### Output format
 
 Initially all lines are considered to be invalid in all caches.
 Below is an example of an 0r0 command
